@@ -1,11 +1,14 @@
+@import url("styles/hearder.css");
+
 :root {
-   --cor-de-fundo: #EBECEE;
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
 }
-
 body {
-    background-color: var(--cor-de-fundo)
+    background-color: var(--cor-de-fundo);
 }
-
-h1 {
-    background-color: white;
+.lista-menu_titulo,
+.lista-menu_item {
+    padding: lem;
+    background-color: var(--branco);
 }
